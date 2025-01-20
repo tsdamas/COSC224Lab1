@@ -1,24 +1,24 @@
-```markdown
+
 
 # COSC224Lab1 - Lab 1 - GitHub
 
 ## Project Overview
-This project is an **Interactive Quiz**, created as part of Lab 1 for GitHub practice.
-The goal of this lab is to practice using Git and GitHub to create repositories, work with branches, and use pull requests to merge changes.
+This project is an **Interactive Quiz**, created as part of Lab 1 for GitHub practice.  
+The goal of this lab is to practice using Git and GitHub to create repositories, work with branches, and use pull requests to merge changes.  
 The quiz was designed with simple functionality, focusing on Git/GitHub workflows rather than complex features.
 
 ## Features Implemented
 The project includes:
 - **Quiz Questions**: Four interactive multiple-choice questions covering CIS-related topics.
 - **HTML Structure**: Clean and semantic HTML code for the quiz layout.
-- **Form Handling**: A structure that allows users to select answers and submit their responses.
+- **Form Handling**: A structure allowing users to select and submit answers.
 - **Dynamic Results Section**: A section to display the quiz results (JavaScript functionality to be added in future improvements).
 
 ## How to Use
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/tsdamas/COSC224Lab1.git
-   ```
+
 2. Navigate to the project folder:
    ```bash
    cd COSC224Lab1
