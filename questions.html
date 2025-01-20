@@ -42,6 +42,29 @@
             margin-top: 20px;
             font-weight: bold;
         }
+        .developers {
+        text-align: center;
+        margin-top: 20px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .developers img {
+            max-width: 150px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .developers h2 {
+            color: #790808;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .developers p {
+            color: #333;
+            font-size: 16px;
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -84,6 +107,14 @@
         </form>
         <div class="result" id="result"></div>
     </div>
+
+    
+    <div class="developers">
+        <h2>Developed by:</h2>
+        <img src="AiImageThaisAndJuliana.webp" alt="Thais and Juliana">
+        <p>Thais and Juliana</p>
+    </div>
+
     <script>
         function checkAnswers() {
             // Correct answers for the questions
@@ -108,5 +139,6 @@
             resultDiv.textContent = `You scored ${score} out of ${Object.keys(answers).length}`;
         }
     </script>
+
 </body>
 </html>
