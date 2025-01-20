@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Okanagan College CIS Quiz</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What does CIS stand for?</p>
+                <ul class="options">
+                    <li><label><input type="radio" name="q1" value="a"> Computer Information Systems</label></li>
+                    <li><label><input type="radio" name="q1" value="b"> Computer Integrated Studies</label></li>
+                    <li><label><input type="radio" name="q1" value="c"> Central Information Services</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <p>2. Which programming language is commonly taught in the CIS program?</p>
+                <ul class="options">
+                    <li><label><input type="radio" name="q2" value="a"> Python</label></li>
+                    <li><label><input type="radio" name="q2" value="b"> Java</label></li>
+                    <li><label><input type="radio" name="q2" value="c"> C++</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <p>3. Which is the best way to reach Professor Ken?</p>
+                <ul class="options">
+                    <li><label><input type="radio" name="q3" value="a"> Email</label></li>
+                    <li><label><input type="radio" name="q3" value="b"> Discord</label></li>
+                    <li><label><input type="radio" name="q3" value="c"> Instagram</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <p>4. Which of the following is the worst password to use?</p>
+                <ul class="options">
+                    <li><label><input type="radio" name="q4" value="a"> letmein</label></li>
+                    <li><label><input type="radio" name="q4" value="b"> 123456</label></li>
+                    <li><label><input type="radio" name="q4" value="c"> passw0rd - the 'O' is a ZERO</label></li>
+                </ul>
+            </div>
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>
