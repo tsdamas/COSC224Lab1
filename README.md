@@ -1,5 +1,3 @@
-
-
 # COSC224Lab1 - Lab 1 - GitHub
 
 ## Project Overview
@@ -65,4 +63,3 @@ This project fulfills the following submission requirements:
 ## Acknowledgments
 This project was completed as part of the COSC224 Lab 1 assignment at Okanagan College. 
 Special thanks to our instructor Karanmeet Khatra for providing the opportunity to practice Git and GitHub workflows.
-```
