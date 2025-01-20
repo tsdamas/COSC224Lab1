@@ -38,7 +38,7 @@ The project includes:
 ## Partner Collaboration
 This project was completed by:
 - [Juliana Nina](https://github.com/juliananina)
-- [Thais Damas](https://github.com/tsdamas)
+- [Thais Damasceno](https://github.com/tsdamas)
 
 Each partner contributed by working on separate branches and reviewing each other's code through pull requests. 
 Collaboration ensured the project met all the assignment requirements.
