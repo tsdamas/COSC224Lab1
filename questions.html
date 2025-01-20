@@ -47,6 +47,29 @@
             margin-top: 20px;
             font-weight: bold;
         }
+        .developers {
+        text-align: center;
+        margin-top: 20px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .developers img {
+            max-width: 150px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .developers h2 {
+            color: #790808;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .developers p {
+            color: #333;
+            font-size: 16px;
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -89,26 +112,11 @@
         </form>
         <div class="result" id="result"></div>
     </div>
-    <br>
-    <footer class="container">
-      <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:quiz-organizers@gmail.com" class="email-link" title="Email Organizers">oc-quiz-organizers@gmail.com</a>
-        </div>
-        <div class="social-link d-flex justify-content-center">
-          <a href="https://www.instagram.com/" target="_blank" title="Intagram">
-            <i class="fa-brands fa-instagram fa-xl"></i>
-          </a>
-          <a href="https://github.com/tsdamas" target="_blank" title="GitHub">
-            <i class="fa-brands fa-github fa-xl"></i>
-          </a>
-          <a href="https://twitter.com/" target="_blank" title="Twiter" >
-            <i class="fa-brands fa-square-x-twitter fa-xl"></i>
-          </a>
-        </div>
-        <p class="text-center mt-4 footer-p">
-         This project was coded by Thais Damasceno and Juliana Nina, and it is <a href="https://github.com/tsdamas/portfolio-project" title="GitHub link" target="_blank">open-sourced</a>
-        </p>
-      </footer>
+    <div class="developers">
+        <h2>Developed by:</h2>
+        <img src="AiImageThaisAndJuliana.webp" alt="Thais and Juliana">
+        <p>Thais and Juliana</p>
+    </div>
     <script>
         function checkAnswers() {
             // Correct answers for the questions
@@ -133,5 +141,6 @@
             resultDiv.textContent = `You scored ${score} out of ${Object.keys(answers).length}`;
         }
     </script>
+
 </body>
 </html>
